@@ -6,6 +6,7 @@ import HomeScreen from '../Screens/HomeScreen';
 import MessageScreen from '../Screens/MessageScreen';
 import RechercheScreen from '../Screens/RechercheScreen';
 import ProfilScreen from '../Screens/ProfilScreen';
+import ChatScreen from '../Screens/ChatScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -53,7 +54,7 @@ const BottomNavigation = () => {
 
       <Tab.Screen
         name="add"
-        component={MessageScreen}
+        component={ChatScreen}
         options={{
           tabBarLabel: () => (
             <View style={{ justifyContent: 'center', alignItems: 'center' }}>

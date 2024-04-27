@@ -8,6 +8,8 @@ import InscrireScreen from './Screens/InscrireScreen';
 import Page1Screen from './Screens/Page1Screen';
 import Page2Screen from './Screens/Page2Screen';
 import ProfilScreen from './Screens/ProfilScreen';
+import ChatScreen from "./Screens/ChatScreen";
+
 
 
 
@@ -27,6 +29,7 @@ export default function App() {
         <Stack.Screen name="Inscrire" component={InscrireScreen}options={{headerShown:false}} />
         <Stack.Screen name="EditProfil" component={EditProfilScreen}options={{headerShown:false}} />
         <Stack.Screen name="Profil" component={ProfilScreen}options={{headerShown:false}} />
+        <Stack.Screen name="Chat" component={ChatScreen}options={{headerShown:false}} />
         <Stack.Screen name="Nav" component={BottomNavigation} options={{headerShown:false}}/>
 
 
